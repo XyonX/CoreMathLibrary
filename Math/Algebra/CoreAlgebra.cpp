@@ -1,4 +1,4 @@
-﻿#include "CoreMath.h"
+﻿#include "CoreAlgebra.h"
 
 
 namespace math
@@ -6,5 +6,9 @@ namespace math
     namespace algebra 
     {
 
+
+
+      
     }
 }
+

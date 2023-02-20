@@ -1,5 +1,5 @@
 ﻿
-#include"CoreMath.h"
+#include "../../CoreMath.h"
 
 namespace math
 {

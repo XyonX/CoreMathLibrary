@@ -4,24 +4,6 @@
 #include <cmath>
 
 
-class Matrix
-{
-private:
-    int rows;
-    int columns;
-    float** elements;
-
-public:
-    Matrix(int rows, int columns);
-    ~Matrix();
-    void setElement(int i, int j, float value);
-    float getElement(int i, int j) const;
-    Matrix operator+(const Matrix& other) const;
-    Matrix operator-(const Matrix& other) const;
-    Matrix operator*(const Matrix& other) const;
-};
-
-
 
 namespace math 
 {
@@ -35,11 +17,11 @@ namespace math
     {
         // namesace algebra
     }
-    namespace Geometry
+    namespace geometry
     {
         //namespace Geometry
     }
-    namespace Calculas
+    namespace calculus
     {
 
     }
@@ -51,4 +33,4 @@ namespace math
 
 }
 
-namespace Arthm = math::arithmetic;
+namespace arthm = math::arithmetic;
